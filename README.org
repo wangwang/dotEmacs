@@ -1,0 +1,13 @@
+Cloned from https://github.com/jianingy/emacs-ysl, tested on Ubuntu 14.04
+
+* requires
+
+* initialize
+
+* steps
+@ ~/.emacs.d
+1. site-lisp/el-get/el-get.el
+2. init.el -> etc-lisp -> site-lisp -> site-lisp/el-get
+
+3. el-get
+(cd ~/.emacs.d; emacs -batch -q -l init.el)
